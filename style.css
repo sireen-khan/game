@@ -29,6 +29,7 @@ body {
 }
 p {
   color: Navy;
+  font-family: Mona Sans(cursive);
   text-align: center;
 }
 body {
@@ -56,7 +57,7 @@ p    {color: Navy;}
 <style>
 h1 {
   color: Black;
-  font-family: Brush Script MT (cursive);
+  font-family: Hubot Sans(cursive);
   font-size: 300%;
 }
 p {
