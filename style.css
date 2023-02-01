@@ -22,3 +22,9 @@
 #topNav a:hover {
   color: lime;
 }
+body {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
