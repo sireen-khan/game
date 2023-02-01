@@ -28,7 +28,7 @@ body {
     margin-right: auto;
 }
 p {
-  color: Navy Blue;
+  color: Navy;
   text-align: center;
 }
 body {
@@ -44,7 +44,7 @@ body {
 <style>
 body {background-color: powderblue;}
 h1   {color: Black;}
-p    {color: Navy Blue;}
+p    {color: Navy;}
 </style>
 </head>
 
@@ -60,7 +60,7 @@ h1 {
   font-size: 300%;
 }
 p {
-  color: Navy Blue;
+  color: Navy;
   font-family: courier;
   font-size: 160%;
 }
