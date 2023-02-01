@@ -27,4 +27,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
+p {
+  color: aliceblue;
+  text-align: center;
+}
