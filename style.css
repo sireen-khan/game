@@ -32,6 +32,7 @@ p {
   font-family: Mona Sans(cursive);
   text-align: center;
 }
+
 body {
     max-width: 900px;
     margin-left: auto;
@@ -70,6 +71,29 @@ p {
 
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>HTML Table</h2>
+
 
 </body>
 </html>
