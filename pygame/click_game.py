@@ -22,6 +22,11 @@ def on_mouse_down(pos):
 def on_mouse_down(pos):
     if my_character.collidepoint(pos):
         sounds.eep.play()
-        my_character.image = 'my_character_hurt'
+        my_character.image = 'char_w_hat'
+def set_my_character_hurt():
+    my_character.image = 'char_w_hat'
+    sounds.eep.play()
+    clock.schedule_unique(set_my_character_normal, 1.0)
+
 
 
