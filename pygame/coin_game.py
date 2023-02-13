@@ -13,4 +13,4 @@ def draw():
     screen.fill("green")
     character.draw()
     square.draw()
-    screen.draw.text("Score: " +
+    screen.draw.text("Score: " + str(score), color="black", topleft=(10,10))
