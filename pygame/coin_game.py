@@ -1,4 +1,4 @@
-# Write your code here :-)
+ # Write your code here :-)
 WIDTH = 400
 HEIGHT = 400
 score = 0
@@ -11,6 +11,6 @@ coin.pos = 200,200
 
 def draw():
     screen.fill("green")
-    character.draw()
-    square.draw()
+    fox.draw()
+    coin.draw()
     screen.draw.text("Score: " + str(score), color="black", topleft=(10,10))
